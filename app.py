@@ -26,7 +26,7 @@ scat_button = st.button('Create scatter plot')
 
 if scat_button: # if the button is clicked
     # showing message
-    st.write('Creating an scatter plot for the vehicles sales dataset')
+    st.write('Creating a scatter plot for the vehicles sales dataset')
 
     # scatter plot
     fig = px.scatter(car_data, x="odometer", y="price")
